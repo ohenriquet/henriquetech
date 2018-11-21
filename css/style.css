@@ -612,7 +612,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
-.colby_tm_button a{
+.colby_tm_button a,.colby_tm_button .button{
 	text-decoration: none;
 	color: #fff;
 	background-color: #fd4d4d;
@@ -624,11 +624,11 @@ img.svg{
 	position: relative;
 	overflow: hidden;
 }
-.colby_tm_button a span{
+.colby_tm_button a span, .colby_tm_button .button span{
 	position: relative;
 	z-index: 2;
 }
-.colby_tm_button a:before{
+.colby_tm_button a:before, .colby_tm_button .button:before{
 	position: absolute;
 	content: "";
 	top: 0px;
@@ -641,7 +641,13 @@ img.svg{
 	z-index: 1;
  
 }
-.colby_tm_button a:hover:before{width: 170%;}
+.colby_tm_button a:hover:before,.colby_tm_button .button:hover:before{width: 170%;}
+.colby_tm_button .button {
+    border: none;
+	height: auto;
+	cursor: pointer;
+    padding: 20px 40px !important;
+}
 
 /*---------------------------------------------------*/
 /*	06) COLBY ABOUT
@@ -2124,7 +2130,9 @@ img.svg{
 	border-bottom-color: #fd4d4d;
 }
 .colby_tm_contact_wrap .colby_tm_button{text-align: center;}
-.colby_tm_contact_wrap .colby_tm_button a{
+.colby_tm_contact_wrap .colby_tm_button a,
+.colby_tm_contact_wrap .colby_tm_button .button
+{
 	text-decoration: none;
     color: #fff;
     background-color: #fd4d4d;
