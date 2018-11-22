@@ -176,7 +176,7 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.colby_tm_header.scroll .colby_tm_navigation_wrap .menu > ul > li:hover a{color: #fd4d4d;}
+.colby_tm_header.scroll .colby_tm_navigation_wrap .menu > ul > li:hover a{color: #347ebf;}
 .colby_tm_navigation_wrap,
 .colby_tm_navigation_wrap .navigation_inner{
 	width: 100%;
@@ -243,7 +243,7 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.colby_tm_navigation_wrap .menu > ul > li:hover a{color: #fd4d4d;}
+.colby_tm_navigation_wrap .menu > ul > li:hover a{color: #347ebf;}
 .colby_tm_navigation_wrap .social_icons_wrap{
 	position: absolute;
 	right: 0px;
@@ -533,7 +533,7 @@ img.svg{
 	margin-bottom: 30px;
 }
 .colby_tm_hero_title .name span{
-	color: #fd4d4d;
+	color: #347ebf;
 	font-size: 75px;
 }
 .colby_tm_hero_share{
@@ -560,7 +560,7 @@ img.svg{
 	
 	transition: all .3s ease;
 }
-.colby_tm_hero_share ul li a:hover{color: #fd4d4d;	}
+.colby_tm_hero_share ul li a:hover{color: #347ebf;	}
 .colby_tm_hero_share ul li a i{
 	font-size: 17px;
 }
@@ -625,7 +625,7 @@ img.svg{
 .colby_tm_button a,.colby_tm_button .button{
 	text-decoration: none;
 	color: #fff;
-	background-color: #fd4d4d;
+	background-color: #347ebf;
 	font-weight: 600;
 	font-family: "Montserrat";
 	padding: 15px 40px;
@@ -738,7 +738,7 @@ img.svg{
 	width: 40%;
 	bottom: 0px;
 	top: 15%;
-	border: 10px solid #fd4d4d;
+	border: 10px solid #347ebf;
 	z-index: -2;
 }
 .colby_tm_about_wrap .rightbox{
@@ -768,7 +768,7 @@ img.svg{
 }
 .colby_tm_about_wrap .definition p:last-child{margin-bottom: 0px;}
 .colby_tm_about_wrap .definition strong{
-	color: #fd4d4d;
+	color: #347ebf;
 	font-family: "Montserrat";
 }
 .colby_tm_skills_wrap,
@@ -947,7 +947,7 @@ img.svg{
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-.colby_tm_about_wrap .about_short_contact_wrap ul li a:hover{color: #fd4d4d;}
+.colby_tm_about_wrap .about_short_contact_wrap ul li a:hover{color: #347ebf;}
 .colby_tm_about_wrap .buttons_wrap{
 	width: 100%;
 	height: auto;
@@ -970,7 +970,7 @@ img.svg{
 .colby_tm_about_wrap .buttons_wrap ul li a{
 	text-decoration: none;
 	color: #fff;
-	background-color: #fd4d4d;
+	background-color: #347ebf;
 	font-weight: 600;
 	font-family: "Montserrat";
 	padding: 15px 40px;
@@ -994,7 +994,7 @@ img.svg{
 	z-index: 2;
 }
 .colby_tm_about_wrap .buttons_wrap ul li a.download:hover{
-	background-color: #fd4d4d;
+	background-color: #347ebf;
 	color: #fff;
 }
 .colby_tm_about_wrap .buttons_wrap ul li a:before{
@@ -1147,15 +1147,15 @@ img.svg{
 	line-height: 70px;
 	margin: 0px auto;
 	border-radius: 100%;
-	background-color: #fd4d4d;
+	background-color: #347ebf;
 	margin-bottom: 28px;
 }
 .colby_tm_services_wrap ul li .inner .image .svg{
-	width: 25px;
-	height: 25px;
+	width: 40px;
+	height: 40px;
 	color: #fff;
 	position: relative;
-	top: 7px;
+	top: 0px;
 }
 .colby_tm_services_wrap ul li .inner span{
 	margin-bottom: 8px;
@@ -1171,7 +1171,7 @@ img.svg{
 	right: 0px;
 	height: 2px;
 	width: 100%;
-	background-color: #fd4d4d;
+	background-color: #347ebf;
 	z-index: 1;
 	
 	-webkit-transition: all .4s ease;
@@ -1185,7 +1185,7 @@ img.svg{
 	background-color: rgba(10,4,37,1);
 }
 .colby_tm_services_wrap ul li .inner:hover .image{background-color: #fff;}
-.colby_tm_services_wrap ul li .inner:hover .image .svg{color: #fd4d4d;}
+.colby_tm_services_wrap ul li .inner:hover .image .svg{color: #347ebf;}
 .colby_tm_services_wrap ul li .inner:hover span{color: #fff;}
 .colby_tm_services_wrap ul li .inner:hover p{color: #eee;}
 
@@ -1609,7 +1609,7 @@ img.svg{
 	     -o-transition: all .1s ease;
 	        transition: all .1s ease;
 }
-.colby_tm_portfolio_filter li a.current{color: #fd4d4d;}
+.colby_tm_portfolio_filter li a.current{color: #347ebf;}
 
 /* PORTFOLIO LIST */
 
@@ -1793,6 +1793,9 @@ img.svg{
 }
 .colby_tm_news_wrap .definitions_wrap{padding: 40px 30px 47px 30px;}
 .colby_tm_news_wrap .image_wrap{position: relative;}
+.colby_tm_news_wrap .image_wrap::before{content: ""; width: 100%; height: 100%; position:absolute;top:0; left:0; z-index: 1;
+	background: #f7f7f745; transition: all .3s}
+	.colby_tm_news_wrap .image_wrap:hover::before{content: "";background: none}
 .colby_tm_news_wrap .image_wrap .big{display: none;}
 .colby_tm_news_wrap .image_wrap .small{display: block;}
 .colby_tm_news_wrap .news_image{
@@ -1835,7 +1838,7 @@ img.svg{
 	right: 100%;
 	margin-right: 8px;
 }
-.colby_tm_news_wrap .date_wrap p a:hover{color: #fd4d4d;}
+.colby_tm_news_wrap .date_wrap p a:hover{color: #347ebf;}
 .colby_tm_news_wrap .title_holder{margin-bottom: 18px;}
 .colby_tm_news_wrap .title_holder h3{
 	color: #fff;
@@ -1855,13 +1858,13 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.colby_tm_news_wrap .title_holder h3 a:hover{color: #fd4d4d;}
+.colby_tm_news_wrap .title_holder h3 a:hover{color: #347ebf;}
 .colby_tm_news_wrap .definition{margin-bottom: 26px;}
 .colby_tm_news_wrap .definition p{color: #333;}
 .colby_tm_news_wrap .read_more a{
 	text-decoration: none;
 	color: #fff;
-	background-color: #fd4d4d;
+	background-color: #347ebf;
 	font-weight: 600;
 	font-family: "Montserrat";
 	padding: 15px 40px;
@@ -2032,7 +2035,7 @@ img.svg{
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-#colby_tm_popup_blog .colby_tm_popup_share_wrap ul li a:hover{color: #fd4d4d;}
+#colby_tm_popup_blog .colby_tm_popup_share_wrap ul li a:hover{color: #347ebf;}
 #colby_tm_popup_blog .close{
 	position: absolute;
 	top: 30px;
@@ -2124,7 +2127,7 @@ img.svg{
 }
 .colby_tm_contact_wrap .main_input_wrap .wrap input:focus{
 	outline: none;
-	border-bottom-color: #fd4d4d;
+	border-bottom-color: #347ebf;
 }
 .colby_tm_contact_wrap .main_input_wrap .wrap textarea{
 	width: 100%;
@@ -2137,7 +2140,7 @@ img.svg{
 }
 .colby_tm_contact_wrap .main_input_wrap .wrap textarea:focus{
 	outline: none;
-	border-bottom-color: #fd4d4d;
+	border-bottom-color: #347ebf;
 }
 .colby_tm_contact_wrap .colby_tm_button{text-align: center;}
 .colby_tm_contact_wrap .colby_tm_button a,
@@ -2145,7 +2148,7 @@ img.svg{
 {
 	text-decoration: none;
     color: #fff;
-    background-color: #fd4d4d;
+    background-color: #347ebf;
     font-weight: 600;
     font-family: "Montserrat";
     padding: 15px 40px;
@@ -2153,13 +2156,13 @@ img.svg{
     display: inline-block;
 }
 .colby_tm_contact_wrap .empty_notice{
-	color: #FF0004;
+	color: #347ebf;
 	margin-bottom: 7px;
 	display: none;
 	text-align: center;
 }
 .colby_tm_contact_wrap .contact_error{
-	color: rgba(255,0,4,1.00);
+	color: #347ebf;
 	text-align: center;
 }
 .colby_tm_contact_wrap .returnmessage{
@@ -2216,7 +2219,7 @@ img.svg{
 .colby_tm_address_holder_wrap .inner_wrap ul li .svg{
 	width: 19px;
 	height: 19px;
-	color: #fd4d4d;
+	color: #347ebf;
 }
 .colby_tm_address_holder_wrap .inner_wrap ul li p{color: #fff;}
 .colby_tm_address_holder_wrap .inner_wrap ul li p a{
@@ -2229,7 +2232,7 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.colby_tm_address_holder_wrap .inner_wrap ul li p a:hover{color: #fd4d4d;}
+.colby_tm_address_holder_wrap .inner_wrap ul li p a:hover{color: #347ebf;}
 .colby_tm_footer_wrap{
 	width: 100%;
 	height: auto;
@@ -2257,7 +2260,7 @@ img.svg{
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-.colby_tm_footer_wrap p a:hover{color: #fd4d4d;}
+.colby_tm_footer_wrap p a:hover{color: #347ebf;}
 
 /*---------------------------------------------------*/
 /*	14) COLBY TO TOP
@@ -2272,7 +2275,7 @@ img.svg{
 	line-height: 38px;
 	z-index: 100;
 	overflow: hidden;
-	background: #fd4d4d;
+	background: #347ebf;
 	opacity: 0;
 	visibility: hidden;
 	text-align: center;
@@ -2320,7 +2323,7 @@ img.svg{
     line-height: 1.2;
     margin-bottom: 10px;
 }
-.colby_tm_hero_title_second .name span{color: #fd4d4d;}
+.colby_tm_hero_title_second .name span{color: #347ebf;}
 .colby_tm_hero_title_second .subtitle{
 	color: #fff;
     font-size: 24px;
@@ -2339,7 +2342,7 @@ img.svg{
 .colby_tm_hero_button a{
 	text-decoration: none;
     color: #fff;
-    background-color: #fd4d4d;
+    background-color: #347ebf;
     font-weight: 600;
     font-family: "Montserrat";
     padding: 15px 40px;
@@ -2397,7 +2400,7 @@ img.svg{
 .colby_tm_service_wrapper_all[data-style="second"] .colby_tm_services_wrap_second{display: block;}
 .colby_tm_services_wrap_second .colby_tm_main_title_holder{margin-bottom: 90px;}
 .colby_tm_service_wrapper_all[data-style="second"]{padding-bottom: 22px;}
-.colby_tm_services_wrap_second .service_icon .svg{color: #fd4d4d;}
+.colby_tm_services_wrap_second .service_icon .svg{color: #347ebfss;}
 
 /*---------------------------------------------------*/
 /*	16) COLBY HOMEPAGE 3

@@ -308,7 +308,7 @@ input[type="button"]{
   margin-left: .2em;
  
   /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
+  font-size: 120%;
  
   /* Font smoothing. That was taken from TWBS */
   -webkit-font-smoothing: antialiased;
@@ -407,7 +407,7 @@ input[type="button"]{
 .xcon-sort-down:before { content: '\f0dd'; } /* '' */
 .xcon-sort-up:before { content: '\f0de'; } /* '' */
 .xcon-mail-alt:before { content: '\f0e0'; } /* '' */
-.xcon-linkedin:before { content: '\f0e1'; } /* '' */
+.xcon-youtube:before { content: '\f16a'; } /* '' */
 .xcon-comment-empty:before { content: '\f0e5'; } /* '' */
 .xcon-chat-empty:before { content: '\f0e6'; } /* '' */
 .xcon-bell-alt:before { content: '\f0f3'; } /* '' */
